@@ -1,0 +1,37 @@
+name: Data correction
+description: Something in the matrix, catalogue or findings is wrong or out of date.
+labels: [data]
+body:
+  - type: input
+    id: selector
+    attributes:
+      label: Selector code
+      description: The country or territory code, for example IE or IC.
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Where it is
+      description: File and field, or the row in docs/country-data-matrix.md.
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: What the repository says
+    validations:
+      required: true
+  - type: textarea
+    id: correct
+    attributes:
+      label: What is correct
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: A link to an official or primary source, with its date. Corrections without a source cannot be merged.
+    validations:
+      required: true

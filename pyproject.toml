@@ -1,0 +1,19 @@
+[project]
+name = "country-place-matrix"
+version = "1.0.0"
+description = "Build scripts for cross-checked country, address, telephone and timezone reference data."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Erik Thiart" }]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "SIM", "C4", "PIE", "RUF", "ISC", "PERF", "PLW", "EXE"]
+ignore = [
+    "RUF001", # typographic apostrophes in generated prose are intentional
+    "E501",   # long data and message lines are kept readable by the formatter where possible
+]

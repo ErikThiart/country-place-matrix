@@ -1,0 +1,263 @@
+{
+  "coverage": {
+    "canonical_countries": 250,
+    "canonical_dedicated_formats": 204,
+    "countries_with_display_examples": 167,
+    "countries_with_official_examples": [
+      "BY",
+      "EC",
+      "EE",
+      "GB",
+      "KR",
+      "PE"
+    ],
+    "countries_with_source_examples": 168,
+    "countries_with_validated_source_examples": 166,
+    "generic_selectors": [
+      "AO",
+      "AQ",
+      "AW",
+      "BI",
+      "BQ",
+      "BV",
+      "BW",
+      "BZ",
+      "CD",
+      "CF",
+      "CG",
+      "CK",
+      "CM",
+      "CW",
+      "DJ",
+      "DM",
+      "ER",
+      "FJ",
+      "GA",
+      "GD",
+      "GH",
+      "GM",
+      "GQ",
+      "GY",
+      "LC",
+      "LY",
+      "ML",
+      "MS",
+      "NU",
+      "PS",
+      "SB",
+      "SL",
+      "SS",
+      "ST",
+      "SX",
+      "TD",
+      "TF",
+      "TG",
+      "TK",
+      "TL",
+      "TO",
+      "TT",
+      "UG",
+      "VU",
+      "WS",
+      "YE"
+    ],
+    "national_or_provider_acceptance_claimed": false,
+    "parent_formats": [
+      "CP",
+      "CQ",
+      "DG",
+      "EA",
+      "IC"
+    ],
+    "postal_capture_overlays": [
+      "CD",
+      "DJ",
+      "GH",
+      "GY",
+      "LC",
+      "MS",
+      "NU",
+      "PS",
+      "TL",
+      "TT",
+      "UG",
+      "WS"
+    ],
+    "selector_dedicated_formats": 206,
+    "selectors": 257,
+    "source_example_conflicts": {
+      "BY": [
+        "20050"
+      ],
+      "EC": [
+        "EC090112",
+        "H0103C",
+        "P0133B",
+        "P0133A",
+        "P0133V"
+      ],
+      "EE": [
+        "1001"
+      ],
+      "GB": [
+        "RH6 OHP"
+      ],
+      "KR": [
+        "110-110",
+        "699-800"
+      ],
+      "PE": [
+        "LIMA 23",
+        "LIMA 42",
+        "CALLAO 2"
+      ],
+      "SO": [
+        "09010",
+        "11010"
+      ]
+    },
+    "subdivision_records": 12075,
+    "subdivision_roots": [
+      "AD",
+      "AE",
+      "AM",
+      "AR",
+      "AU",
+      "BB",
+      "BR",
+      "BS",
+      "CA",
+      "CL",
+      "CN",
+      "CO",
+      "CR",
+      "CU",
+      "CV",
+      "EE",
+      "EG",
+      "ES",
+      "FM",
+      "GB",
+      "GT",
+      "HK",
+      "HN",
+      "ID",
+      "IE",
+      "IN",
+      "IR",
+      "IT",
+      "JM",
+      "JP",
+      "KI",
+      "KN",
+      "KP",
+      "KR",
+      "KY",
+      "KZ",
+      "MX",
+      "MY",
+      "MZ",
+      "NG",
+      "NI",
+      "NR",
+      "PA",
+      "PE",
+      "PG",
+      "PH",
+      "PY",
+      "RU",
+      "SC",
+      "SO",
+      "SR",
+      "SV",
+      "TH",
+      "TR",
+      "TV",
+      "TW",
+      "UA",
+      "UM",
+      "US",
+      "UY",
+      "VE",
+      "VN",
+      "ZW"
+    ],
+    "upstream_dedicated_formats": 206
+  },
+  "google_source_ref": {
+    "branch": "master",
+    "commit": "81eb9628382b07d371d8ea0b11badf7de3857fd5",
+    "committed_at": "2026-05-15T06:57:49Z",
+    "data_last_change_at": "2026-05-13T10:14:40Z",
+    "data_last_change_commit": "5ef3a927bdd6002bf25c5c09029347bebf57a57b",
+    "repository": "google/libaddressinput"
+  },
+  "licenses": [
+    {
+      "file": "resources/data/addressing/commerceguys-LICENSE",
+      "sha256": "bcce22529dae53a1e1c8c03b79ccd09a921a0f0b4ecff04f73ad98aba8bf9634"
+    },
+    {
+      "file": "resources/data/addressing/google-libaddressinput-LICENSE",
+      "sha256": "389e6d12ea7853b6e9d797a98d19ddc6ccfaa021f29e21b2ac1ebc68c2607280"
+    }
+  ],
+  "limitations": [
+    "Postal subdivision identifiers are not ISO/FIPS/GeoNames geographic boundaries.",
+    "A generic format is an explicit fallback, not national validation.",
+    "UPU overlays preserve optional capture only; no invented postcode pattern or requiredness.",
+    "Source examples conflicting with newer patterns remain recorded but are excluded from validated hints.",
+    "Reference imports do not establish national, provider, legal or publication acceptance."
+  ],
+  "outputs": [
+    {
+      "bytes": 10303333,
+      "file": "resources/data/country-addresses.v1.json",
+      "sha256": "81618fa68e6276fc202e8f70010d5d26ab09959a1d1ec920856f1b6d63bb6d7e"
+    },
+    {
+      "bytes": 1233843,
+      "file": "resources/data/country-address-metadata.v1.json",
+      "sha256": "2fd910dedc2b2d45ed9ebd3e7ef9ff2936bc9a0da89ee60bf708ba09f03eac49"
+    }
+  ],
+  "schema_version": 1,
+  "source_release_verification": {
+    "commit": "e3ce66714cfa181b848533d926e8583261253c9e",
+    "committed_at": "2026-10-09T10:50:35Z",
+    "repository": "commerceguys/addressing",
+    "tag": "v2.3.2"
+  },
+  "sources": [
+    {
+      "file": "resources/data/addressing/commerceguys-e3ce667.tar.gz",
+      "key": "commerceguys_addressing",
+      "license": "MIT",
+      "release": "v2.3.2",
+      "released_at": "2026-10-09",
+      "revision": "e3ce66714cfa181b848533d926e8583261253c9e",
+      "sha256": "01bd43057c0766e4ec21e687944abf7d4f0baa2df81b975bcd0b9004999faabd",
+      "url": "https://codeload.github.com/commerceguys/addressing/tar.gz/e3ce66714cfa181b848533d926e8583261253c9e"
+    },
+    {
+      "data_last_change_at": "2026-05-13T10:14:40Z",
+      "data_last_change_commit": "5ef3a927bdd6002bf25c5c09029347bebf57a57b",
+      "file": "resources/data/addressing/google-countryinfo.txt",
+      "key": "google_libaddressinput_examples",
+      "license": "Apache-2.0; bundled third-party notices retained",
+      "revision": "81eb9628382b07d371d8ea0b11badf7de3857fd5",
+      "sha256": "51a5da9ac621f3457b96b99de798a47a02004f57e4289c1dd587a95730dad720",
+      "url": "https://raw.githubusercontent.com/google/libaddressinput/81eb9628382b07d371d8ea0b11badf7de3857fd5/testdata/countryinfo.txt"
+    },
+    {
+      "file": "resources/data/addressing/postal-evidence.v1.json",
+      "key": "official_postal_reference_examples",
+      "license": "Minimal factual reference observations; publisher attribution retained; full documents not redistributed",
+      "revision": "reviewed-2026-10-27-545de979bd1f",
+      "sha256": "545de979bd1fb8c7c938006d6e72697277a4d4bdf56f7993064be125ba0ff1a1",
+      "source_urls_in": "sources.*.url"
+    }
+  ],
+  "update_policy": "Review official upstream release, license and source changes; update pinned hashes deliberately; rebuild offline; run country-address reference and integration tests. Never activate countries from a source update.",
+  "version": "commerceguys-e3ce66714cfa-google-81eb9628382b-postal-545de979bd1f-v1"
+}
