@@ -5,6 +5,12 @@ All notable changes to this project are recorded here. The format follows
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html). Data files carry
 their own version in the file name and in a `version` field.
 
+## [Unreleased]
+
+### Added
+
+- Zenodo DOI for the archived release in the README and citation file.
+
 ## [1.0.0] - 2026-11-15
 
 ### Added

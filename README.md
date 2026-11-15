@@ -1,6 +1,7 @@
 # country-place-matrix
 
 [![CI](https://github.com/ErikThiart/country-place-matrix/actions/workflows/ci.yml/badge.svg)](https://github.com/ErikThiart/country-place-matrix/actions/workflows/ci.yml)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24246413.svg)](https://doi.org/10.5281/zenodo.24246413)
 [![Code: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
 [![Data: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-blue.svg)](LICENSE-DATA.md)
 [![PHP 8.2+](https://img.shields.io/badge/php-8.2%2B-777bb4.svg)](composer.json)
@@ -153,6 +154,10 @@ Code is MIT, see [LICENSE](LICENSE). Derived data and documentation are CC BY 4.
 
 ## Cite
 
-See [CITATION.cff](CITATION.cff). The matrix came out of the work described in:
+See [CITATION.cff](CITATION.cff), or cite the archived release:
+
+Thiart, E. (2026). country-place-matrix: cross-checked country, address, telephone and timezone reference data for 257 selectors. Zenodo. https://doi.org/10.5281/zenodo.24246413
+
+The matrix came out of the work described in:
 
 Thiart, E. (2026). Harness Engineering for AI-Written Business Listings. Zenodo. https://doi.org/10.5281/zenodo.24217719

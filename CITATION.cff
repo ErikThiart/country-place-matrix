@@ -6,6 +6,7 @@ authors:
   - family-names: Thiart
     given-names: Erik
     orcid: "https://orcid.org/0009-0008-3562-5795"
+doi: "10.5281/zenodo.24246413"
 repository-code: "https://github.com/ErikThiart/country-place-matrix"
 license: MIT
 version: "1.0.0"
