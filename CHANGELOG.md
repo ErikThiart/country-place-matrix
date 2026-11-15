@@ -10,6 +10,7 @@ their own version in the file name and in a `version` field.
 ### Added
 
 - Zenodo DOI for the archived release in the README and citation file.
+- Link to the companion report in the README and the Zenodo metadata.
 
 ## [1.0.0] - 2026-11-15
 

@@ -29,7 +29,7 @@ The full table, one row per selector, is [docs/country-data-matrix.md](docs/coun
 
 ## Findings
 
-The reasoning and the per-country cases are in [docs/](docs/):
+The findings are explained in the report [No Country Fits the Form: Reconciling Public Country, Address and Place Data](https://doi.org/10.5281/zenodo.24246319). The reasoning and the per-country cases are in [docs/](docs/):
 
 - [mapping-contract.md](docs/mapping-contract.md): how the sources join, and the rules for doing it safely.
 - [mapping-matrix.md](docs/mapping-matrix.md): the source-to-source mapping for all 257 candidates.
@@ -157,6 +157,10 @@ Code is MIT, see [LICENSE](LICENSE). Derived data and documentation are CC BY 4.
 See [CITATION.cff](CITATION.cff), or cite the archived release:
 
 Thiart, E. (2026). country-place-matrix: cross-checked country, address, telephone and timezone reference data for 257 selectors. Zenodo. https://doi.org/10.5281/zenodo.24246413
+
+The findings are written up in the companion report:
+
+Thiart, E. (2026). No Country Fits the Form: Reconciling Public Country, Address and Place Data. Zenodo. https://doi.org/10.5281/zenodo.24246319
 
 The matrix came out of the work described in:
 

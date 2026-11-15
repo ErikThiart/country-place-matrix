@@ -24,8 +24,13 @@
   ],
   "related_identifiers": [
     {
-      "identifier": "10.5281/zenodo.24217719",
+      "identifier": "10.5281/zenodo.24246319",
       "relation": "isSupplementTo",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "10.5281/zenodo.24217719",
+      "relation": "isDerivedFrom",
       "resource_type": "publication-report"
     }
   ]
