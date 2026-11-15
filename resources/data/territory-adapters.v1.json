@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "version": "territory-adapters-2026-11-09",
+  "sources": {
+    "geonames_dataset": "geonames-2026-10-27",
+    "tzdata": "tzdata-2026e zone.tab",
+    "tzdata_sha256": "b26882805f26aac59d5b222978e6580484b834ccdc98be89df2f05a6dc53a652",
+    "shards": {
+      "SH": "77b33c5899ceddd32a46c4cd43d3e344ae855854a8e3605efea84bc1a8720921",
+      "ES": "b9fff78832e2a691c68ba92a62874f743ca5b8660a9632ecd6f56f1dd2c77ec6",
+      "GG": "2b845ccacc95a255b28cf0980d5d571bc67e63505efd5f720bf37bec4babe538",
+      "IO": "809604b13ef48da579dd31915b7daf6603afaa7d7cfae902adb455876dbc5959"
+    }
+  },
+  "rect_order": "min_lon,min_lat,max_lon,max_lat",
+  "selectors": {
+    "AC": {
+      "country_code": "SH",
+      "provider_country": "sh",
+      "timezones": [
+        "Atlantic/St_Helena"
+      ],
+      "timezone_basis": "zone.tab SH row (the only row)",
+      "areas": [
+        {
+          "name": "Ascension",
+          "root_geoname_ids": [
+            2411430
+          ],
+          "pinned_points": 8,
+          "rect": [
+            -14.4667,
+            -8.0012,
+            -14.3011,
+            -7.8786
+          ],
+          "padding_degrees": 0.05
+        }
+      ]
+    },
+    "TA": {
+      "country_code": "SH",
+      "provider_country": "sh",
+      "timezones": [
+        "Atlantic/St_Helena"
+      ],
+      "timezone_basis": "zone.tab SH row (the only row)",
+      "areas": [
+        {
+          "name": "Tristan da Cunha",
+          "root_geoname_ids": [
+            3370684
+          ],
+          "pinned_points": 3,
+          "rect": [
+            -12.3616,
+            -37.1628,
+            -12.2328,
+            -37.0176
+          ],
+          "padding_degrees": 0.05
+        }
+      ]
+    },
+    "IC": {
+      "country_code": "ES",
+      "provider_country": "es",
+      "timezones": [
+        "Atlantic/Canary"
+      ],
+      "timezone_basis": "zone.tab ES row 'Canary Islands'",
+      "areas": [
+        {
+          "name": "Canary Islands",
+          "root_geoname_ids": [
+            2593110
+          ],
+          "pinned_points": 868,
+          "rect": [
+            -18.2,
+            27.5413,
+            -13.3476,
+            29.501
+          ],
+          "padding_degrees": 0.1
+        }
+      ]
+    },
+    "EA": {
+      "country_code": "ES",
+      "provider_country": "es",
+      "timezones": [
+        "Africa/Ceuta"
+      ],
+      "timezone_basis": "zone.tab ES row 'Ceuta, Melilla'",
+      "areas": [
+        {
+          "name": "Ceuta",
+          "root_geoname_ids": [
+            2519582
+          ],
+          "pinned_points": 32,
+          "rect": [
+            -5.4305,
+            35.8221,
+            -5.2364,
+            35.9665
+          ],
+          "padding_degrees": 0.05
+        },
+        {
+          "name": "Melilla",
+          "root_geoname_ids": [
+            6362988
+          ],
+          "pinned_points": 19,
+          "rect": [
+            -3.0089,
+            35.22,
+            -2.8883,
+            35.3563
+          ],
+          "padding_degrees": 0.05
+        }
+      ]
+    },
+    "CQ": {
+      "country_code": "GG",
+      "provider_country": "gg",
+      "timezones": [
+        "Europe/Guernsey"
+      ],
+      "timezone_basis": "zone.tab GG row (the only row)",
+      "areas": [
+        {
+          "name": "Sark",
+          "root_geoname_ids": [
+            6696201
+          ],
+          "pinned_points": 2,
+          "rect": [
+            -2.4089,
+            49.3831,
+            -2.3062,
+            49.4833
+          ],
+          "padding_degrees": 0.05
+        }
+      ]
+    },
+    "DG": {
+      "country_code": "IO",
+      "provider_country": "io",
+      "timezones": [
+        "Indian/Chagos"
+      ],
+      "timezone_basis": "zone.tab IO row (the only row)",
+      "areas": [
+        {
+          "name": "Diego Garcia",
+          "root_geoname_ids": [
+            7503195,
+            13631478
+          ],
+          "pinned_points": 6,
+          "rect": [
+            72.2768,
+            -7.4745,
+            72.5829,
+            -7.1623
+          ],
+          "padding_degrees": 0.1
+        }
+      ]
+    }
+  },
+  "excluded": {
+    "CP": "Clipperton Island is uninhabited, has no populated place in the pinned GeoNames data and no IANA zone (FR zone.tab lists only Europe/Paris)."
+  }
+}

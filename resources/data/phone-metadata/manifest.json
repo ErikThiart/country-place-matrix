@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "project": "Google libphonenumber",
+  "repository": "https://github.com/google/libphonenumber",
+  "release": "v9.0.42",
+  "published_at": "2026-10-27T03:01:27Z",
+  "commit": "8d8d75272c351b60b87163db5328e439c53a6b56",
+  "license": "Apache-2.0",
+  "retrieved_on": "2026-10-27T10:07:07.896036+00:00",
+  "files": [
+    {
+      "path": "PhoneNumberMetadata.xml",
+      "upstream_path": "resources/PhoneNumberMetadata.xml",
+      "url": "https://raw.githubusercontent.com/google/libphonenumber/8d8d75272c351b60b87163db5328e439c53a6b56/resources/PhoneNumberMetadata.xml",
+      "bytes": 975909,
+      "sha256": "b6491939ddaeb9d585a34fe0f0ebd096e83c5ac9a1c5d6dddf38ba4b162b28ca"
+    },
+    {
+      "path": "LICENSE",
+      "upstream_path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/google/libphonenumber/8d8d75272c351b60b87163db5328e439c53a6b56/LICENSE",
+      "bytes": 10173,
+      "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9"
+    }
+  ],
+  "scope": "Telephone numbering-plan metadata reference, not assignment, reachability or identity proof."
+}

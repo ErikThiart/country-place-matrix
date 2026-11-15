@@ -1,0 +1,32 @@
+{
+  "title": "country-place-matrix: cross-checked country, address, telephone and timezone reference data for 257 selectors",
+  "upload_type": "dataset",
+  "description": "<p>A cross-checked reference of country, territory, address, telephone and timezone metadata for 257 country and territory selectors (250 canonical identities), with the scripts that build it from pinned public sources and a small PHP library for using it.</p><p>It records what Unicode CLDR, the IANA Time Zone Database, CommerceGuys Addressing, Google libphonenumber and GeoNames each say for every selector, where they conflict, and what is still unknown. It includes a generated one-row-per-selector matrix, per-country exception notes, a review of postal references for countries with no dedicated address format, and a town-name matcher for text extracted from web pages.</p><p>All builds and tests run offline against the pinned inputs. The data is reference evidence and is not a claim of national accuracy.</p>",
+  "creators": [
+    {
+      "name": "Thiart, Erik",
+      "orcid": "0009-0008-3562-5795"
+    }
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "language": "eng",
+  "keywords": [
+    "country codes",
+    "address formats",
+    "geographic reference data",
+    "CLDR",
+    "GeoNames",
+    "time zones",
+    "telephone numbering plans",
+    "data reconciliation",
+    "PHP"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.24217719",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-report"
+    }
+  ]
+}

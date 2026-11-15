@@ -1,0 +1,9 @@
+resources/data/geonames/shards/
+var/
+vendor/
+__pycache__/
+*.pyc
+.phpunit.cache/
+.php-cs-fixer.cache
+.ruff_cache/
+composer.lock

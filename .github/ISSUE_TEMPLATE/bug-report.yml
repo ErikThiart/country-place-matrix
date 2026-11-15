@@ -1,0 +1,24 @@
+name: Bug report
+description: A builder, a test or the PHP library does not behave as documented.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: The command or code you ran and what it did.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: PHP and Python versions, operating system, and the release or commit of this repository.
+    validations:
+      required: true

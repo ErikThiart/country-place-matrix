@@ -1,0 +1,44 @@
+{
+    "name": "erikthiart/country-place-matrix",
+    "description": "Cross-checked country, territory, address, telephone and timezone reference data for 257 selectors, with a catalogue loader and a town-name matcher.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["country codes", "address formats", "cldr", "geonames", "time zones", "reference data"],
+    "authors": [
+        {
+            "name": "Erik Thiart",
+            "homepage": "https://orcid.org/0009-0008-3562-5795"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "ext-json": "*",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.64",
+        "phpstan/phpstan": "^2.0",
+        "phpunit/phpunit": "^11.5"
+    },
+    "autoload": {
+        "files": [
+            "php/country_catalog.php",
+            "php/town_match.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ErikThiart\\CountryPlaceMatrix\\Tests\\": "tests/php/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "analyse": "phpstan analyse --no-progress",
+        "style": "php-cs-fixer fix --dry-run --diff",
+        "style:fix": "php-cs-fixer fix",
+        "check": ["@style", "@analyse", "@test"]
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

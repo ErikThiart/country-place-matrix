@@ -1,0 +1,47 @@
+{
+  "version": "1",
+  "catalog_version": "cldr49-tz2026e-v1",
+  "cldr_version": "49",
+  "cldr_commit": "96e54b273d2da4ec6fbad350ba19ff23fa24a588",
+  "tzdb_version": "2026e",
+  "observed_at": "2026-10-26",
+  "iso_assignment_basis": "IANA iso3166.tab from tzdata2026e; header references ISO/TC46 N1127,2024-02-29. Not a newly downloaded ISO export.",
+  "iso_website_status": "Official ISO public page returned403 during review; independent live ISO validation remains external evidence.",
+  "files": [
+    {
+      "file": "cldr-region-49.xml",
+      "url": "https://raw.githubusercontent.com/unicode-org/cldr/96e54b273d2da4ec6fbad350ba19ff23fa24a588/common/validity/region.xml",
+      "sha256": "e751e0eedd46b52c38f3cdb72b0fab61ac8b48e052e8b28ba74b6ac26c4c8cb1",
+      "bytes": 1905,
+      "license": "Unicode License V3"
+    },
+    {
+      "file": "cldr-supplemental-49.xml",
+      "url": "https://raw.githubusercontent.com/unicode-org/cldr/96e54b273d2da4ec6fbad350ba19ff23fa24a588/common/supplemental/supplementalData.xml",
+      "sha256": "745150ec1408d50e1a272b65654a5dd645f3e60f5cc2898b576f725b28538d1a",
+      "bytes": 394860,
+      "license": "Unicode License V3"
+    },
+    {
+      "file": "cldr-metadata-49.xml",
+      "url": "https://raw.githubusercontent.com/unicode-org/cldr/96e54b273d2da4ec6fbad350ba19ff23fa24a588/common/supplemental/supplementalMetadata.xml",
+      "sha256": "b06614fc2c9aab3b9a9f7e8bf9328f4f7a95d89b2d2dbb300d0caff0f885c164",
+      "bytes": 179885,
+      "license": "Unicode License V3"
+    },
+    {
+      "file": "cldr-territories-en-49.json",
+      "url": "https://raw.githubusercontent.com/unicode-org/cldr-json/49.0.0/cldr-json/cldr-localenames-full/main/en/territories.json",
+      "sha256": "1326fb3bcdf8b8cf63df73ea02ea7f8bf7a8362cbb60bd12bcdb53f3ad22bf04",
+      "bytes": 10190,
+      "license": "Unicode License V3"
+    },
+    {
+      "file": "tzdata-2026e.tar.gz",
+      "url": "https://data.iana.org/time-zones/releases/tzdata2026e.tar.gz",
+      "sha256": "b26882805f26aac59d5b222978e6580484b834ccdc98be89df2f05a6dc53a652",
+      "bytes": 481989,
+      "license": "Public domain, see IANA-LICENSE.txt"
+    }
+  ]
+}

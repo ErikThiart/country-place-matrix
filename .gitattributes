@@ -1,0 +1,6 @@
+* text=auto eol=lf
+
+# Pinned third-party inputs and generated data must stay byte-identical.
+resources/data/** -text linguist-vendored
+resources/data/country-sources/build.py text eol=lf -linguist-vendored
+docs/country-data-matrix.md linguist-generated

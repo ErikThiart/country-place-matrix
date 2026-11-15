@@ -1,0 +1,237 @@
+{
+  "countries": {
+    "BY": {
+      "examples": [
+        {
+          "evidence_key": "BY",
+          "value": "220050"
+        },
+        {
+          "evidence_key": "BY",
+          "value": "220005"
+        }
+      ],
+      "notes": [
+        "Google example 20050 is not six digits. Do not guess its missing digit or autocorrect user data."
+      ]
+    },
+    "EC": {
+      "examples": [
+        {
+          "evidence_key": "EC_current",
+          "value": "180204"
+        }
+      ],
+      "notes": [
+        "Current official six-digit example conflicts with prefixed and alphanumeric Google test values. Historical transition dates were not established."
+      ]
+    },
+    "EE": {
+      "examples": [
+        {
+          "evidence_key": "EE_current",
+          "value": "10621"
+        },
+        {
+          "evidence_key": "EE",
+          "value": "11212"
+        },
+        {
+          "evidence_key": "EE",
+          "value": "10001"
+        }
+      ],
+      "notes": [
+        "Google example 1001 is not five digits. Do not infer which missing digit a user intended."
+      ]
+    },
+    "GB": {
+      "examples": [
+        {
+          "evidence_key": "GB",
+          "value": "RH6 0HP"
+        }
+      ],
+      "notes": [
+        "UPU prints digit 0 in RH6 0HP; Google RH6 OHP uses letter O. Preserve both source records without autocorrecting submitted addresses."
+      ]
+    },
+    "KR": {
+      "examples": [
+        {
+          "evidence_key": "KR_current",
+          "value": "06043"
+        },
+        {
+          "evidence_key": "KR_current",
+          "value": "30114"
+        }
+      ],
+      "notes": [
+        "Korea Post describes the five-digit system introduced 2015-08-01. Google six-digit examples are retained as historical conflicts. Leading zero in 06043 is significant."
+      ]
+    },
+    "PE": {
+      "examples": [
+        {
+          "evidence_key": "PE",
+          "value": "15074"
+        },
+        {
+          "evidence_key": "PE",
+          "value": "15082"
+        }
+      ],
+      "notes": [
+        "Dated 2013 UPU reference supplies five-digit values; old Lima/Callao district labels are not valid five-digit examples."
+      ]
+    },
+    "SO": {
+      "examples": [],
+      "historical_examples": [
+        {
+          "evidence_key": "SO",
+          "value": "JH 09010"
+        },
+        {
+          "evidence_key": "SO",
+          "value": "MD 11010"
+        }
+      ],
+      "notes": [
+        "The dated 2004 UPU sheet says two spaces but visually prints single-space examples. The pinned CommerceGuys pattern accepts at most one space. No current national scheme, spacing rule or requiredness was verified; do not relax the pattern or present historical examples as current hints."
+      ],
+      "unresolved_pattern_examples": [
+        "JH  09010"
+      ]
+    }
+  },
+  "policy": [
+    "Keep original Google examples and conflict classification unchanged.",
+    "Validate separately attributed examples against unchanged pinned postal patterns before offering display hints.",
+    "Never automatically rewrite submitted postal values from examples.",
+    "A historical document and a fetched current page do not establish nationwide provider, delivery, legal or publication acceptance."
+  ],
+  "reviewed_at": "2026-10-27",
+  "schema_version": 1,
+  "scope": "Separately sourced postcode examples for known raw-source conflicts; not a national address dataset or publication approval.",
+  "sources": {
+    "BY": {
+      "attribution": "Universal Postal Union; source copyright and notices remain with its publisher.",
+      "current_national_acceptance_established": false,
+      "excerpt_sha256": "d3faec51b8e1b74cfa17b499f900f2e7aae15d324fc5b7a5dd8dabbc3a1c38a8",
+      "minimal_factual_excerpt": "Postcode type and position: 6 digits; coding method 220050; example 220005.",
+      "publisher": "Universal Postal Union",
+      "redistribution": "Only these minimal postcode facts and source attribution are retained; the full document or page is not redistributed.",
+      "retrieved_at": "2026-10-27",
+      "source_body_bytes": 255113,
+      "source_body_sha256": "5e090d60ed6f5f266aad180c412adad6822f512d0f18aa97432bbf1349c99e14",
+      "source_document_date": "2018-07",
+      "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/blrEn.pdf"
+    },
+    "EC_current": {
+      "attribution": "Ecuador national postal-code service; source copyright and notices remain with its publisher.",
+      "current_national_acceptance_established": false,
+      "excerpt_sha256": "614447efbfbc48f6f648bdf77eea46abf78684896796f2fe65da244548470623",
+      "minimal_factual_excerpt": "Por ejemplo, el Código Postal 180204 [...] corresponde a [...] Ambato.",
+      "publisher": "Ecuador national postal-code service",
+      "redistribution": "Only these minimal postcode facts and source attribution are retained; the full document or page is not redistributed.",
+      "retrieved_at": "2026-10-27",
+      "source_body_bytes": 3384,
+      "source_body_sha256": "e4b0470b16ae2b8b85c1fb2d88b6063ceae888bb2d409f0d9c53d766890fc46a",
+      "source_document_date": null,
+      "url": "https://www.codigopostal.gob.ec/html/que_es_codigopostal.html"
+    },
+    "EE": {
+      "attribution": "Universal Postal Union; source copyright and notices remain with its publisher.",
+      "current_national_acceptance_established": false,
+      "excerpt_sha256": "ca39d1d63470c02b5a363d0227d893f11c6e4c9841be0b96cd45a14b11434119",
+      "minimal_factual_excerpt": "Postcode type and position: 5 digits; example 11212; contact postcode 10001.",
+      "publisher": "Universal Postal Union",
+      "redistribution": "Only these minimal postcode facts and source attribution are retained; the full document or page is not redistributed.",
+      "retrieved_at": "2026-10-27",
+      "source_body_bytes": 132980,
+      "source_body_sha256": "afca9c47fc80f9fd1c3bd127f79987c268dfea45bb4a5336c31fd88bf8543158",
+      "source_document_date": "2014-06",
+      "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/estEn.pdf"
+    },
+    "EE_current": {
+      "attribution": "Estonian Land and Spatial Development Board; source copyright and notices remain with its publisher.",
+      "current_national_acceptance_established": false,
+      "excerpt_sha256": "a870ac7e817dc18357b43bd45ece0b070f1e63f9c3e8c8e4443bcfad042d14c6",
+      "minimal_factual_excerpt": "Postal code element: \"sihtnumber\":\"10621\"; Last update: 27.08.2025 14:35.",
+      "publisher": "Estonian Land and Spatial Development Board",
+      "redistribution": "Only these minimal postcode facts and source attribution are retained; the full document or page is not redistributed.",
+      "retrieved_at": "2026-10-27",
+      "source_body_bytes": 30112,
+      "source_body_sha256": "adb76e171768da7f85110942089c7bc27c6ff6aac04e274f69e23c6be00ad7af",
+      "source_document_date": "2025-08-27",
+      "url": "https://geoportaal.maaruum.ee/eng/spatial-data/address-data/postal-codes-p661.html"
+    },
+    "GB": {
+      "attribution": "Universal Postal Union; source copyright and notices remain with its publisher.",
+      "current_national_acceptance_established": false,
+      "excerpt_sha256": "ea33ddd1e45a380fc079444abc25bd9db5eb6b44d4e882c6e94bfb9f4bca1129",
+      "minimal_factual_excerpt": "HORLEY postcode RH6 0HP.",
+      "publisher": "Universal Postal Union",
+      "redistribution": "Only these minimal postcode facts and source attribution are retained; the full document or page is not redistributed.",
+      "retrieved_at": "2026-10-27",
+      "source_body_bytes": 172234,
+      "source_body_sha256": "fd1a751e7694578ac80e56c3c18fffc4163499694448b5891a5c47ddfa132b22",
+      "source_document_date": "2011-11",
+      "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/gbrEn.pdf"
+    },
+    "KR": {
+      "attribution": "Universal Postal Union; source copyright and notices remain with its publisher.",
+      "current_national_acceptance_established": false,
+      "excerpt_sha256": "163be5049fd4d0b50f13ae9b349e469b952240d01ae88049691525c28d2a21c7",
+      "minimal_factual_excerpt": "Since 1 August, 2015, the 5-digit district number [...] has been used as the postcode.",
+      "publisher": "Universal Postal Union",
+      "redistribution": "Only these minimal postcode facts and source attribution are retained; the full document or page is not redistributed.",
+      "retrieved_at": "2026-10-27",
+      "source_body_bytes": 148898,
+      "source_body_sha256": "7da6ba06dbdcba5ec69517dd3d1fb7c6f3be4062fa9f93ef6181509d53486658",
+      "source_document_date": "2016-03",
+      "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/korEn.pdf"
+    },
+    "KR_current": {
+      "attribution": "Korea Post; source copyright and notices remain with its publisher.",
+      "current_national_acceptance_established": false,
+      "excerpt_sha256": "805592ef74b86678ded18398879da5863249c5a3a85e9199427c4d97d01a365f",
+      "minimal_factual_excerpt": "3차 개정(2015. 8. 1.) : 국가기초구역번호(5자리); 우편번호 06043; (30114).",
+      "publisher": "Korea Post",
+      "redistribution": "Only these minimal postcode facts and source attribution are retained; the full document or page is not redistributed.",
+      "retrieved_at": "2026-10-27",
+      "source_body_bytes": 82296,
+      "source_body_sha256": "4163e14559b1710d60a50d74203d553fa069b2e3816d93f710483ded1dc0ef1e",
+      "source_document_date": null,
+      "url": "https://www.koreapost.go.kr/kpost/subIndex/208.do?pSiteIdx=125"
+    },
+    "PE": {
+      "attribution": "Universal Postal Union; source copyright and notices remain with its publisher.",
+      "current_national_acceptance_established": false,
+      "excerpt_sha256": "81c553ff6e8e1b16b14d039c06a285a50032936e09bf0341680259742afc9f83",
+      "minimal_factual_excerpt": "Postcode type and position: 5 digits; examples 15074 and 15082.",
+      "publisher": "Universal Postal Union",
+      "redistribution": "Only these minimal postcode facts and source attribution are retained; the full document or page is not redistributed.",
+      "retrieved_at": "2026-10-27",
+      "source_body_bytes": 125689,
+      "source_body_sha256": "99e02b78c737100ebebb202777c7251a6f8edad9b76a859c97b9d733c1e5f699",
+      "source_document_date": "2013-01",
+      "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/perEn.pdf"
+    },
+    "SO": {
+      "attribution": "Universal Postal Union; source copyright and notices remain with its publisher.",
+      "current_national_acceptance_established": false,
+      "excerpt_sha256": "02ce3487eaa5c0d8f3470606eba96519f2f54bb432d171c9b451aa63dcdfe230",
+      "minimal_factual_excerpt": "There should be two spaces between the region code and the last five digits of the postcode.",
+      "publisher": "Universal Postal Union",
+      "redistribution": "Only these minimal postcode facts and source attribution are retained; the full document or page is not redistributed.",
+      "retrieved_at": "2026-10-27",
+      "source_body_bytes": 76964,
+      "source_body_sha256": "674604ab90c6f4ecdec84d1fab3639de787d14b194e7af7fa3a6453515864c1d",
+      "source_document_date": "2004-09",
+      "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/somEn.pdf"
+    }
+  }
+}

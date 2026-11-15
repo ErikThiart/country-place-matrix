@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this data or code, please cite it as below."
+title: "country-place-matrix: cross-checked country, address, telephone and timezone reference data for 257 selectors"
+type: dataset
+authors:
+  - family-names: Thiart
+    given-names: Erik
+    orcid: "https://orcid.org/0009-0008-3562-5795"
+repository-code: "https://github.com/ErikThiart/country-place-matrix"
+license: MIT
+version: "1.0.0"
+date-released: "2026-11-15"
+keywords:
+  - country codes
+  - address formats
+  - geographic reference data
+  - CLDR
+  - GeoNames
+  - time zones
+  - telephone numbering plans
+  - data reconciliation
